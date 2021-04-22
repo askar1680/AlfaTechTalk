@@ -1,0 +1,30 @@
+// AST
+swiftc -dump-ast App.swift
+
+
+// Raw SIL
+swiftc -emit-silgen App.swift
+
+// Canonical SIL
+swiftc -emit-sil App.swift
+// @$s3App18getFibonacciNumber1nS2i_tF
+
+
+// LLVM IR
+swiftc -emit-ir App.swift
+
+
+// Assembly
+swiftc -emit-assembly App.swift
+
+// Executable
+swiftc App.swift
+
+
+// LLVM
+clang sum.ll
+./a.out
+echo $status
+
+// get time of the command
+time <command>
