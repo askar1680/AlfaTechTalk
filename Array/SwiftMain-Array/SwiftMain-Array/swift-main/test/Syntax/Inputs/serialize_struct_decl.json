@@ -1,0 +1,341 @@
+{
+  "id": 40,
+  "kind": "SourceFile",
+  "layout": [
+    {
+      "id": 39,
+      "kind": "CodeBlockItemList",
+      "layout": [
+        {
+          "id": 37,
+          "kind": "CodeBlockItem",
+          "layout": [
+            {
+              "id": 36,
+              "kind": "StructDecl",
+              "layout": [
+                null,
+                null,
+                {
+                  "id": 1,
+                  "tokenKind": {
+                    "kind": "kw_struct"
+                  },
+                  "leadingTrivia": "\/\/ RUN: %swift-syntax-test -input-source-filename %s -serialize-raw-tree > %t\n\/\/ RUN: diff %t %S\/Inputs\/serialize_struct_decl.json -u\n\n",
+                  "trailingTrivia": " ",
+                  "presence": "Present"
+                },
+                {
+                  "id": 2,
+                  "tokenKind": {
+                    "kind": "identifier",
+                    "text": "Foo"
+                  },
+                  "leadingTrivia": "",
+                  "trailingTrivia": " ",
+                  "presence": "Present"
+                },
+                null,
+                null,
+                null,
+                {
+                  "id": 35,
+                  "kind": "MemberDeclBlock",
+                  "layout": [
+                    {
+                      "id": 3,
+                      "tokenKind": {
+                        "kind": "l_brace"
+                      },
+                      "leadingTrivia": "",
+                      "trailingTrivia": "",
+                      "presence": "Present"
+                    },
+                    {
+                      "id": 33,
+                      "kind": "MemberDeclList",
+                      "layout": [
+                        {
+                          "id": 14,
+                          "kind": "MemberDeclListItem",
+                          "layout": [
+                            {
+                              "id": 13,
+                              "kind": "VariableDecl",
+                              "layout": [
+                                null,
+                                null,
+                                {
+                                  "id": 4,
+                                  "tokenKind": {
+                                    "kind": "kw_let"
+                                  },
+                                  "leadingTrivia": "\n  ",
+                                  "trailingTrivia": "   ",
+                                  "presence": "Present"
+                                },
+                                {
+                                  "id": 12,
+                                  "kind": "PatternBindingList",
+                                  "layout": [
+                                    {
+                                      "id": 11,
+                                      "kind": "PatternBinding",
+                                      "layout": [
+                                        {
+                                          "id": 6,
+                                          "kind": "IdentifierPattern",
+                                          "layout": [
+                                            {
+                                              "id": 5,
+                                              "tokenKind": {
+                                                "kind": "identifier",
+                                                "text": "bar"
+                                              },
+                                              "leadingTrivia": "",
+                                              "trailingTrivia": " ",
+                                              "presence": "Present"
+                                            }
+                                          ],
+                                          "presence": "Present"
+                                        },
+                                        {
+                                          "id": 10,
+                                          "kind": "TypeAnnotation",
+                                          "layout": [
+                                            {
+                                              "id": 7,
+                                              "tokenKind": {
+                                                "kind": "colon"
+                                              },
+                                              "leadingTrivia": "",
+                                              "trailingTrivia": " ",
+                                              "presence": "Present"
+                                            },
+                                            {
+                                              "id": 9,
+                                              "kind": "SimpleTypeIdentifier",
+                                              "layout": [
+                                                {
+                                                  "id": 8,
+                                                  "tokenKind": {
+                                                    "kind": "identifier",
+                                                    "text": "Int"
+                                                  },
+                                                  "leadingTrivia": "",
+                                                  "trailingTrivia": "",
+                                                  "presence": "Present"
+                                                },
+                                                null
+                                              ],
+                                              "presence": "Present"
+                                            }
+                                          ],
+                                          "presence": "Present"
+                                        },
+                                        null,
+                                        null,
+                                        null
+                                      ],
+                                      "presence": "Present"
+                                    }
+                                  ],
+                                  "presence": "Present"
+                                }
+                              ],
+                              "presence": "Present"
+                            },
+                            null
+                          ],
+                          "presence": "Present"
+                        },
+                        {
+                          "id": 32,
+                          "kind": "MemberDeclListItem",
+                          "layout": [
+                            {
+                              "id": 31,
+                              "kind": "VariableDecl",
+                              "layout": [
+                                null,
+                                null,
+                                {
+                                  "id": 15,
+                                  "tokenKind": {
+                                    "kind": "kw_let"
+                                  },
+                                  "leadingTrivia": "\n\n  ",
+                                  "trailingTrivia": " ",
+                                  "presence": "Present"
+                                },
+                                {
+                                  "id": 30,
+                                  "kind": "PatternBindingList",
+                                  "layout": [
+                                    {
+                                      "id": 29,
+                                      "kind": "PatternBinding",
+                                      "layout": [
+                                        {
+                                          "id": 17,
+                                          "kind": "IdentifierPattern",
+                                          "layout": [
+                                            {
+                                              "id": 16,
+                                              "tokenKind": {
+                                                "kind": "identifier",
+                                                "text": "baz"
+                                              },
+                                              "leadingTrivia": "",
+                                              "trailingTrivia": " ",
+                                              "presence": "Present"
+                                            }
+                                          ],
+                                          "presence": "Present"
+                                        },
+                                        {
+                                          "id": 28,
+                                          "kind": "TypeAnnotation",
+                                          "layout": [
+                                            {
+                                              "id": 18,
+                                              "tokenKind": {
+                                                "kind": "colon"
+                                              },
+                                              "leadingTrivia": "",
+                                              "trailingTrivia": " ",
+                                              "presence": "Present"
+                                            },
+                                            {
+                                              "id": 27,
+                                              "kind": "SimpleTypeIdentifier",
+                                              "layout": [
+                                                {
+                                                  "id": 19,
+                                                  "tokenKind": {
+                                                    "kind": "identifier",
+                                                    "text": "Array"
+                                                  },
+                                                  "leadingTrivia": "",
+                                                  "trailingTrivia": " ",
+                                                  "presence": "Present"
+                                                },
+                                                {
+                                                  "id": 26,
+                                                  "kind": "GenericArgumentClause",
+                                                  "layout": [
+                                                    {
+                                                      "id": 20,
+                                                      "tokenKind": {
+                                                        "kind": "l_angle"
+                                                      },
+                                                      "leadingTrivia": "",
+                                                      "trailingTrivia": " ",
+                                                      "presence": "Present"
+                                                    },
+                                                    {
+                                                      "id": 24,
+                                                      "kind": "GenericArgumentList",
+                                                      "layout": [
+                                                        {
+                                                          "id": 23,
+                                                          "kind": "GenericArgument",
+                                                          "layout": [
+                                                            {
+                                                              "id": 22,
+                                                              "kind": "SimpleTypeIdentifier",
+                                                              "layout": [
+                                                                {
+                                                                  "id": 21,
+                                                                  "tokenKind": {
+                                                                    "kind": "identifier",
+                                                                    "text": "Int"
+                                                                  },
+                                                                  "leadingTrivia": "",
+                                                                  "trailingTrivia": " ",
+                                                                  "presence": "Present"
+                                                                },
+                                                                null
+                                                              ],
+                                                              "presence": "Present"
+                                                            },
+                                                            null
+                                                          ],
+                                                          "presence": "Present"
+                                                        }
+                                                      ],
+                                                      "presence": "Present"
+                                                    },
+                                                    {
+                                                      "id": 25,
+                                                      "tokenKind": {
+                                                        "kind": "r_angle"
+                                                      },
+                                                      "leadingTrivia": "",
+                                                      "trailingTrivia": "",
+                                                      "presence": "Present"
+                                                    }
+                                                  ],
+                                                  "presence": "Present"
+                                                }
+                                              ],
+                                              "presence": "Present"
+                                            }
+                                          ],
+                                          "presence": "Present"
+                                        },
+                                        null,
+                                        null,
+                                        null
+                                      ],
+                                      "presence": "Present"
+                                    }
+                                  ],
+                                  "presence": "Present"
+                                }
+                              ],
+                              "presence": "Present"
+                            },
+                            null
+                          ],
+                          "presence": "Present"
+                        }
+                      ],
+                      "presence": "Present"
+                    },
+                    {
+                      "id": 34,
+                      "tokenKind": {
+                        "kind": "r_brace"
+                      },
+                      "leadingTrivia": "\n      ",
+                      "trailingTrivia": "",
+                      "presence": "Present"
+                    }
+                  ],
+                  "presence": "Present"
+                }
+              ],
+              "presence": "Present"
+            },
+            null,
+            null
+          ],
+          "presence": "Present"
+        }
+      ],
+      "presence": "Present"
+    },
+    {
+      "id": 38,
+      "tokenKind": {
+        "kind": "eof",
+        "text": ""
+      },
+      "leadingTrivia": "\n",
+      "trailingTrivia": "",
+      "presence": "Present"
+    }
+  ],
+  "presence": "Present"
+}

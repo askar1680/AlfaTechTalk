@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		5364C29F260B0EA600D2B881 /* SequencesAndCollections.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = SequencesAndCollections.rst; sourceTree = "<group>"; };
+		5364C2A0260B0EA600D2B881 /* IndexInvalidation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IndexInvalidation.md; sourceTree = "<group>"; };
+		5364C2A1260B0EA600D2B881 /* Generics.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = Generics.rst; sourceTree = "<group>"; };
+		5364C2A2260B0EA600D2B881 /* StoredAndComputedVariables.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoredAndComputedVariables.rst; sourceTree = "<group>"; };
+		5364C2A3260B0EA600D2B881 /* doxygen.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = doxygen.css; sourceTree = "<group>"; };
+		5364C2A4260B0EA600D2B881 /* TypeChecker.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TypeChecker.md; sourceTree = "<group>"; };
+		5364C2A5260B0EA600D2B881 /* RefcountingStates.graffle */ = {isa = PBXFileReference; lastKnownFileType = file; path = RefcountingStates.graffle; sourceTree = "<group>"; };
+		5364C2A6260B0EA600D2B881 /* HowToGuides */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HowToGuides; sourceTree = "<group>"; };
+		5364C2A7260B0EA600D2B881 /* DebuggingTheCompiler.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DebuggingTheCompiler.md; sourceTree = "<group>"; };
+		5364C2A8260B0EA600D2B881 /* ArrayBridge.graffle */ = {isa = PBXFileReference; lastKnownFileType = file; path = ArrayBridge.graffle; sourceTree = "<group>"; };
+		5364C2A9260B0EA600D2B881 /* CppInteroperabilityManifesto.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CppInteroperabilityManifesto.md; sourceTree = "<group>"; };
+		5364C2AA260B0EA600D2B881 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		5364C2AB260B0EA600D2B881 /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tools; sourceTree = "<group>"; };
+		5364C2AC260B0EA600D2B881 /* WebAssembly.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WebAssembly.md; sourceTree = "<group>"; };
+		5364C2AD260B0EA600D2B881 /* Lexicon.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Lexicon.md; sourceTree = "<group>"; };
+		5364C2AE260B0EA600D2B881 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		5364C2AF260B0EA600D2B881 /* ARCOptimization.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ARCOptimization.md; sourceTree = "<group>"; };
+		5364C2B0260B0EA600D2B881 /* archive */ = {isa = PBXFileReference; lastKnownFileType = folder; path = archive; sourceTree = "<group>"; };
+		5364C2B1260B0EA600D2B881 /* contents.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = contents.rst; sourceTree = "<group>"; };
+		5364C2B2260B0EA600D2B881 /* DevelopmentTips.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DevelopmentTips.md; sourceTree = "<group>"; };
+		5364C2B3260B0EA600D2B881 /* DocumentationComments.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DocumentationComments.md; sourceTree = "<group>"; };
+		5364C2B4260B0EA600D2B881 /* Android.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Android.md; sourceTree = "<group>"; };
+		5364C2B5260B0EA600D2B881 /* InstrumentsProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstrumentsProfile.png; sourceTree = "<group>"; };
+		5364C2B6260B0EA600D2B881 /* LogicalObjects.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LogicalObjects.md; sourceTree = "<group>"; };
+		5364C2B7260B0EA600D2B881 /* doxygen.header */ = {isa = PBXFileReference; lastKnownFileType = text; path = doxygen.header; sourceTree = "<group>"; };
+		5364C2B8260B0EA600D2B881 /* ErrorHandling.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = ErrorHandling.rst; sourceTree = "<group>"; };
+		5364C2B9260B0EA600D2B881 /* Serialization.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Serialization.md; sourceTree = "<group>"; };
+		5364C2BA260B0EA600D2B881 /* _templates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _templates; sourceTree = "<group>"; };
+		5364C2BB260B0EA600D2B881 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5364C2BC260B0EA600D2B881 /* ExternalResources.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ExternalResources.md; sourceTree = "<group>"; };
+		5364C2BD260B0EA600D2B881 /* RequestEvaluator.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RequestEvaluator.md; sourceTree = "<group>"; };
+		5364C2BE260B0EA600D2B881 /* DynamicCasting.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DynamicCasting.md; sourceTree = "<group>"; };
+		5364C2BF260B0EA600D2B881 /* StableBitcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StableBitcode.md; sourceTree = "<group>"; };
+		5364C2C0260B0EA600D2B881 /* DependencyAnalysis.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DependencyAnalysis.md; sourceTree = "<group>"; };
+		5364C2C1260B0EA600D2B881 /* ArrayCast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArrayCast.png; sourceTree = "<group>"; };
+		5364C2C2260B0EA600D2B881 /* conf.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = conf.py; sourceTree = "<group>"; };
+		5364C2C3260B0EA600D2B881 /* SIL.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = SIL.rst; sourceTree = "<group>"; };
+		5364C2C4260B0EA600D2B881 /* toc.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = toc.js; sourceTree = "<group>"; };
+		5364C2C5260B0EA600D2B881 /* OptimizationTips.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = OptimizationTips.rst; sourceTree = "<group>"; };
+		5364C2C6260B0EA600D2B881 /* Array.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Array.png; sourceTree = "<group>"; };
+		5364C2C7260B0EA600D2B881 /* StringDesign.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = StringDesign.rst; sourceTree = "<group>"; };
+		5364C2C8260B0EA600D2B881 /* WindowsCrossCompile.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WindowsCrossCompile.md; sourceTree = "<group>"; };
+		5364C2C9260B0EA600D2B881 /* LibraryEvolution.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = LibraryEvolution.rst; sourceTree = "<group>"; };
+		5364C2CA260B0EA600D2B881 /* Arrays.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = Arrays.rst; sourceTree = "<group>"; };
+		5364C2CB260B0EA600D2B881 /* _static */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _static; sourceTree = "<group>"; };
+		5364C2CC260B0EA600D2B881 /* Windows.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Windows.md; sourceTree = "<group>"; };
+		5364C2CD260B0EA600D2B881 /* StandardLibraryProgrammersManual.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StandardLibraryProgrammersManual.md; sourceTree = "<group>"; };
+		5364C2CE260B0EA600D2B881 /* InitializerProblems.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = InitializerProblems.rst; sourceTree = "<group>"; };
+		5364C2CF260B0EA600D2B881 /* OwnershipManifesto.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = OwnershipManifesto.md; sourceTree = "<group>"; };
+		5364C2D0260B0EA600D2B881 /* Testing.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Testing.md; sourceTree = "<group>"; };
+		5364C2D1260B0EA600D2B881 /* Driver.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Driver.md; sourceTree = "<group>"; };
+		5364C2D2260B0EA600D2B881 /* OptimizerDesign.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = OptimizerDesign.md; sourceTree = "<group>"; };
+		5364C2D3260B0EA600D2B881 /* StdlibRationales.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = StdlibRationales.rst; sourceTree = "<group>"; };
+		5364C2D4260B0EA600D2B881 /* ArrayBridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArrayBridge.png; sourceTree = "<group>"; };
+		5364C2D5260B0EA600D2B881 /* StdlibAPIGuidelines.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = StdlibAPIGuidelines.rst; sourceTree = "<group>"; };
+		5364C2D6260B0EA600D2B881 /* ABI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ABI; sourceTree = "<group>"; };
+		5364C2D7260B0EA600D2B881 /* ABIStabilityManifesto.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ABIStabilityManifesto.md; sourceTree = "<group>"; };
+		5364C2D8260B0EA600D2B881 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5364C2D9260B0EA600D2B881 /* ObjCInterop.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ObjCInterop.md; sourceTree = "<group>"; };
+		5364C2DA260B0EA600D2B881 /* Branches.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Branches.md; sourceTree = "<group>"; };
+		5364C2DB260B0EA600D2B881 /* doxygen.intro */ = {isa = PBXFileReference; lastKnownFileType = text; path = doxygen.intro; sourceTree = "<group>"; };
+		5364C2DC260B0EA600D2B881 /* WindowsBuild.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WindowsBuild.md; sourceTree = "<group>"; };
+		5364C2DD260B0EA600D2B881 /* Modules.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = Modules.rst; sourceTree = "<group>"; };
+		5364C2DE260B0EA600D2B881 /* LibraryEvolutionManifesto.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LibraryEvolutionManifesto.md; sourceTree = "<group>"; };
+		5364C2DF260B0EA600D2B881 /* Slice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slice.png; sourceTree = "<group>"; };
+		5364C2E0260B0EA600D2B881 /* HowSwiftImportsCAPIs.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = HowSwiftImportsCAPIs.md; sourceTree = "<group>"; };
+		5364C2E1260B0EA600D2B881 /* FailableInitializers.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = FailableInitializers.rst; sourceTree = "<group>"; };
+		5364C2E2260B0EA600D2B881 /* CToSwiftNameTranslation-OmitNeedlessWords.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "CToSwiftNameTranslation-OmitNeedlessWords.md"; sourceTree = "<group>"; };
+		5364C2E3260B0EA600D2B881 /* OptimizerCountersAnalysis.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = OptimizerCountersAnalysis.md; sourceTree = "<group>"; };
+		5364C2E4260B0EA600D2B881 /* DifferentiableProgramming.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DifferentiableProgramming.md; sourceTree = "<group>"; };
+		5364C2E5260B0EA600D2B881 /* SwiftIndent.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SwiftIndent.md; sourceTree = "<group>"; };
+		5364C2E6260B0EA600D2B881 /* BuildManifesto.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BuildManifesto.md; sourceTree = "<group>"; };
+		5364C2E7260B0EA600D2B881 /* doxygen.cfg.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = doxygen.cfg.in; sourceTree = "<group>"; };
+		5364C2E8260B0EA600D2B881 /* DriverInternals.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DriverInternals.md; sourceTree = "<group>"; };
+		5364C2E9260B0EA600D2B881 /* GitHubCreatePRScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GitHubCreatePRScreenshot.png; sourceTree = "<group>"; };
+		5364C2EA260B0EA600D2B881 /* PerfReport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PerfReport.png; sourceTree = "<group>"; };
+		5364C2EB260B0EA600D2B881 /* ContinuousIntegration.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ContinuousIntegration.md; sourceTree = "<group>"; };
+		5364C2EC260B0EA600D2B881 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = "<group>"; };
+		5364C2ED260B0EA600D2B881 /* weak.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = weak.rst; sourceTree = "<group>"; };
+		5364C2EE260B0EA600D2B881 /* TransparentAttr.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TransparentAttr.md; sourceTree = "<group>"; };
+		5364C2EF260B0EA600D2B881 /* CompilerPerformance.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CompilerPerformance.md; sourceTree = "<group>"; };
+		5364C2F0260B0EA600D2B881 /* StringManifesto.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StringManifesto.md; sourceTree = "<group>"; };
+		5364C2F1260B0EA600D2B881 /* libFuzzerIntegration.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = libFuzzerIntegration.md; sourceTree = "<group>"; };
+		5364C2F2260B0EA600D2B881 /* AndroidBuild.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AndroidBuild.md; sourceTree = "<group>"; };
+		5364C2F3260B0EA600D2B881 /* OpenBSD.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = OpenBSD.md; sourceTree = "<group>"; };
+		5364C2F4260B0EA600D2B881 /* CToSwiftNameTranslation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CToSwiftNameTranslation.md; sourceTree = "<group>"; };
+		5364C2F5260B0EA600D2B881 /* doxygen.footer */ = {isa = PBXFileReference; lastKnownFileType = text; path = doxygen.footer; sourceTree = "<group>"; };
+		5364C2F6260B0EA600D2B881 /* InstrumentsExpandedProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstrumentsExpandedProfile.png; sourceTree = "<group>"; };
+		5364C2F7260B0EA600D2B881 /* SILProgrammersManual.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SILProgrammersManual.md; sourceTree = "<group>"; };
+		5364C2F8260B0EA600D2B881 /* GenericsManifesto.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GenericsManifesto.md; sourceTree = "<group>"; };
+		5364C2F9260B0EA600D2B881 /* refactoring */ = {isa = PBXFileReference; lastKnownFileType = folder; path = refactoring; sourceTree = "<group>"; };
+		5364C2FA260B0EA600D2B881 /* Runtime.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Runtime.md; sourceTree = "<group>"; };
+		5364C2FB260B0EA600D2B881 /* Random.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Random.md; sourceTree = "<group>"; };
+		5364C2FC260B0EA600D2B881 /* ArrayImplementation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArrayImplementation.png; sourceTree = "<group>"; };
+		5364C2FD260B0EA600D2B881 /* HighLevelSILOptimizations.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = HighLevelSILOptimizations.rst; sourceTree = "<group>"; };
+		5364C2FE260B0EA600D2B881 /* Literals.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Literals.md; sourceTree = "<group>"; };
+		5364C2FF260B0EA600D2B881 /* AccessControlInStdlib.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccessControlInStdlib.rst; sourceTree = "<group>"; };
+		5364C300260B0EA600D2B881 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		5364C301260B0EA600D2B881 /* ContiguousArray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ContiguousArray.png; sourceTree = "<group>"; };
+		5364C302260B0EA600D2B881 /* Diagnostics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Diagnostics.md; sourceTree = "<group>"; };
+		5364C303260B0EA600D2B881 /* ErrorHandlingRationale.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = ErrorHandlingRationale.rst; sourceTree = "<group>"; };
+		5364C304260B0EA600D2B881 /* ArrayImplementation.graffle */ = {isa = PBXFileReference; lastKnownFileType = file; path = ArrayImplementation.graffle; sourceTree = "<group>"; };
+		5364C305260B0EA600D2B881 /* MutationModel.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = MutationModel.rst; sourceTree = "<group>"; };
+		5364C306260B0EA600D2B881 /* Swift3Compatibility.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Swift3Compatibility.md; sourceTree = "<group>"; };
+		5364C307260B0EA600D2B881 /* ArrayCast.graffle */ = {isa = PBXFileReference; lastKnownFileType = file; path = ArrayCast.graffle; sourceTree = "<group>"; };
+		5364C308260B0EA600D2B881 /* proposals */ = {isa = PBXFileReference; lastKnownFileType = folder; path = proposals; sourceTree = "<group>"; };
+		5364C309260B0EA600D2B881 /* AccessControl.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = AccessControl.rst; sourceTree = "<group>"; };
+		5364C30A260B0EA600D2B881 /* TextFormatting.rst */ = {isa = PBXFileReference; lastKnownFileType = text; path = TextFormatting.rst; sourceTree = "<group>"; };
+		5364C30B260B0EA600D2B881 /* DriverParseableOutput.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DriverParseableOutput.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5364C299260B0EA600D2B881 = {
+			isa = PBXGroup;
+			children = (
+				5364C29F260B0EA600D2B881 /* SequencesAndCollections.rst */,
+				5364C2A0260B0EA600D2B881 /* IndexInvalidation.md */,
+				5364C2A1260B0EA600D2B881 /* Generics.rst */,
+				5364C2A2260B0EA600D2B881 /* StoredAndComputedVariables.rst */,
+				5364C2A3260B0EA600D2B881 /* doxygen.css */,
+				5364C2A4260B0EA600D2B881 /* TypeChecker.md */,
+				5364C2A5260B0EA600D2B881 /* RefcountingStates.graffle */,
+				5364C2A6260B0EA600D2B881 /* HowToGuides */,
+				5364C2A7260B0EA600D2B881 /* DebuggingTheCompiler.md */,
+				5364C2A8260B0EA600D2B881 /* ArrayBridge.graffle */,
+				5364C2A9260B0EA600D2B881 /* CppInteroperabilityManifesto.md */,
+				5364C2AA260B0EA600D2B881 /* favicon.ico */,
+				5364C2AB260B0EA600D2B881 /* tools */,
+				5364C2AC260B0EA600D2B881 /* WebAssembly.md */,
+				5364C2AD260B0EA600D2B881 /* Lexicon.md */,
+				5364C2AE260B0EA600D2B881 /* CMakeLists.txt */,
+				5364C2AF260B0EA600D2B881 /* ARCOptimization.md */,
+				5364C2B0260B0EA600D2B881 /* archive */,
+				5364C2B1260B0EA600D2B881 /* contents.rst */,
+				5364C2B2260B0EA600D2B881 /* DevelopmentTips.md */,
+				5364C2B3260B0EA600D2B881 /* DocumentationComments.md */,
+				5364C2B4260B0EA600D2B881 /* Android.md */,
+				5364C2B5260B0EA600D2B881 /* InstrumentsProfile.png */,
+				5364C2B6260B0EA600D2B881 /* LogicalObjects.md */,
+				5364C2B7260B0EA600D2B881 /* doxygen.header */,
+				5364C2B8260B0EA600D2B881 /* ErrorHandling.rst */,
+				5364C2B9260B0EA600D2B881 /* Serialization.md */,
+				5364C2BA260B0EA600D2B881 /* _templates */,
+				5364C2BB260B0EA600D2B881 /* Makefile */,
+				5364C2BC260B0EA600D2B881 /* ExternalResources.md */,
+				5364C2BD260B0EA600D2B881 /* RequestEvaluator.md */,
+				5364C2BE260B0EA600D2B881 /* DynamicCasting.md */,
+				5364C2BF260B0EA600D2B881 /* StableBitcode.md */,
+				5364C2C0260B0EA600D2B881 /* DependencyAnalysis.md */,
+				5364C2C1260B0EA600D2B881 /* ArrayCast.png */,
+				5364C2C2260B0EA600D2B881 /* conf.py */,
+				5364C2C3260B0EA600D2B881 /* SIL.rst */,
+				5364C2C4260B0EA600D2B881 /* toc.js */,
+				5364C2C5260B0EA600D2B881 /* OptimizationTips.rst */,
+				5364C2C6260B0EA600D2B881 /* Array.png */,
+				5364C2C7260B0EA600D2B881 /* StringDesign.rst */,
+				5364C2C8260B0EA600D2B881 /* WindowsCrossCompile.md */,
+				5364C2C9260B0EA600D2B881 /* LibraryEvolution.rst */,
+				5364C2CA260B0EA600D2B881 /* Arrays.rst */,
+				5364C2CB260B0EA600D2B881 /* _static */,
+				5364C2CC260B0EA600D2B881 /* Windows.md */,
+				5364C2CD260B0EA600D2B881 /* StandardLibraryProgrammersManual.md */,
+				5364C2CE260B0EA600D2B881 /* InitializerProblems.rst */,
+				5364C2CF260B0EA600D2B881 /* OwnershipManifesto.md */,
+				5364C2D0260B0EA600D2B881 /* Testing.md */,
+				5364C2D1260B0EA600D2B881 /* Driver.md */,
+				5364C2D2260B0EA600D2B881 /* OptimizerDesign.md */,
+				5364C2D3260B0EA600D2B881 /* StdlibRationales.rst */,
+				5364C2D4260B0EA600D2B881 /* ArrayBridge.png */,
+				5364C2D5260B0EA600D2B881 /* StdlibAPIGuidelines.rst */,
+				5364C2D6260B0EA600D2B881 /* ABI */,
+				5364C2D7260B0EA600D2B881 /* ABIStabilityManifesto.md */,
+				5364C2D8260B0EA600D2B881 /* README.md */,
+				5364C2D9260B0EA600D2B881 /* ObjCInterop.md */,
+				5364C2DA260B0EA600D2B881 /* Branches.md */,
+				5364C2DB260B0EA600D2B881 /* doxygen.intro */,
+				5364C2DC260B0EA600D2B881 /* WindowsBuild.md */,
+				5364C2DD260B0EA600D2B881 /* Modules.rst */,
+				5364C2DE260B0EA600D2B881 /* LibraryEvolutionManifesto.md */,
+				5364C2DF260B0EA600D2B881 /* Slice.png */,
+				5364C2E0260B0EA600D2B881 /* HowSwiftImportsCAPIs.md */,
+				5364C2E1260B0EA600D2B881 /* FailableInitializers.rst */,
+				5364C2E2260B0EA600D2B881 /* CToSwiftNameTranslation-OmitNeedlessWords.md */,
+				5364C2E3260B0EA600D2B881 /* OptimizerCountersAnalysis.md */,
+				5364C2E4260B0EA600D2B881 /* DifferentiableProgramming.md */,
+				5364C2E5260B0EA600D2B881 /* SwiftIndent.md */,
+				5364C2E6260B0EA600D2B881 /* BuildManifesto.md */,
+				5364C2E7260B0EA600D2B881 /* doxygen.cfg.in */,
+				5364C2E8260B0EA600D2B881 /* DriverInternals.md */,
+				5364C2E9260B0EA600D2B881 /* GitHubCreatePRScreenshot.png */,
+				5364C2EA260B0EA600D2B881 /* PerfReport.png */,
+				5364C2EB260B0EA600D2B881 /* ContinuousIntegration.md */,
+				5364C2EC260B0EA600D2B881 /* scripts */,
+				5364C2ED260B0EA600D2B881 /* weak.rst */,
+				5364C2EE260B0EA600D2B881 /* TransparentAttr.md */,
+				5364C2EF260B0EA600D2B881 /* CompilerPerformance.md */,
+				5364C2F0260B0EA600D2B881 /* StringManifesto.md */,
+				5364C2F1260B0EA600D2B881 /* libFuzzerIntegration.md */,
+				5364C2F2260B0EA600D2B881 /* AndroidBuild.md */,
+				5364C2F3260B0EA600D2B881 /* OpenBSD.md */,
+				5364C2F4260B0EA600D2B881 /* CToSwiftNameTranslation.md */,
+				5364C2F5260B0EA600D2B881 /* doxygen.footer */,
+				5364C2F6260B0EA600D2B881 /* InstrumentsExpandedProfile.png */,
+				5364C2F7260B0EA600D2B881 /* SILProgrammersManual.md */,
+				5364C2F8260B0EA600D2B881 /* GenericsManifesto.md */,
+				5364C2F9260B0EA600D2B881 /* refactoring */,
+				5364C2FA260B0EA600D2B881 /* Runtime.md */,
+				5364C2FB260B0EA600D2B881 /* Random.md */,
+				5364C2FC260B0EA600D2B881 /* ArrayImplementation.png */,
+				5364C2FD260B0EA600D2B881 /* HighLevelSILOptimizations.rst */,
+				5364C2FE260B0EA600D2B881 /* Literals.md */,
+				5364C2FF260B0EA600D2B881 /* AccessControlInStdlib.rst */,
+				5364C300260B0EA600D2B881 /* assets */,
+				5364C301260B0EA600D2B881 /* ContiguousArray.png */,
+				5364C302260B0EA600D2B881 /* Diagnostics.md */,
+				5364C303260B0EA600D2B881 /* ErrorHandlingRationale.rst */,
+				5364C304260B0EA600D2B881 /* ArrayImplementation.graffle */,
+				5364C305260B0EA600D2B881 /* MutationModel.rst */,
+				5364C306260B0EA600D2B881 /* Swift3Compatibility.md */,
+				5364C307260B0EA600D2B881 /* ArrayCast.graffle */,
+				5364C308260B0EA600D2B881 /* proposals */,
+				5364C309260B0EA600D2B881 /* AccessControl.rst */,
+				5364C30A260B0EA600D2B881 /* TextFormatting.rst */,
+				5364C30B260B0EA600D2B881 /* DriverParseableOutput.md */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		5364C29E260B0EA600D2B881 /* docs */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 5364C30C260B0EA600D2B881 /* Build configuration list for PBXLegacyTarget "docs" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/askaru/Desktop/swift-main/docs";
+			dependencies = (
+			);
+			name = docs;
+			passBuildSettingsInEnvironment = 1;
+			productName = docs;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		5364C29A260B0EA600D2B881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 5364C29D260B0EA600D2B881 /* Build configuration list for PBXProject "docs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5364C299260B0EA600D2B881;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5364C29E260B0EA600D2B881 /* docs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		5364C29B260B0EA600D2B881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		5364C29C260B0EA600D2B881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		5364C30D260B0EA600D2B881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = docs;
+			};
+			name = Debug;
+		};
+		5364C30E260B0EA600D2B881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = docs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5364C29D260B0EA600D2B881 /* Build configuration list for PBXProject "docs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5364C29B260B0EA600D2B881 /* Debug */,
+				5364C29C260B0EA600D2B881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5364C30C260B0EA600D2B881 /* Build configuration list for PBXLegacyTarget "docs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5364C30D260B0EA600D2B881 /* Debug */,
+				5364C30E260B0EA600D2B881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5364C29A260B0EA600D2B881 /* Project object */;
+}

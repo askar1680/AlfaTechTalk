@@ -1,0 +1,166 @@
+{
+  "id": 19,
+  "kind": "SourceFile",
+  "layout": [
+    {
+      "id": 18,
+      "kind": "CodeBlockItemList",
+      "layout": [
+        {
+          "id": 8,
+          "kind": "CodeBlockItem",
+          "layout": [
+            {
+              "id": 7,
+              "kind": "StructDecl",
+              "layout": [
+                null,
+                null,
+                {
+                  "id": 1,
+                  "tokenKind": {
+                    "kind": "kw_struct"
+                  },
+                  "leadingTrivia": "\/\/ RUN: %swift-syntax-test -input-source-filename %s -serialize-raw-tree > %t\n\/\/ RUN: diff %t %S\/Inputs\/serialize_multiple_decls.json -u\n\n",
+                  "trailingTrivia": " ",
+                  "presence": "Present"
+                },
+                {
+                  "id": 2,
+                  "tokenKind": {
+                    "kind": "identifier",
+                    "text": "A"
+                  },
+                  "leadingTrivia": "",
+                  "trailingTrivia": " ",
+                  "presence": "Present"
+                },
+                null,
+                null,
+                null,
+                {
+                  "id": 6,
+                  "kind": "MemberDeclBlock",
+                  "layout": [
+                    {
+                      "id": 3,
+                      "tokenKind": {
+                        "kind": "l_brace"
+                      },
+                      "leadingTrivia": "",
+                      "trailingTrivia": "",
+                      "presence": "Present"
+                    },
+                    {
+                      "id": 4,
+                      "kind": "MemberDeclList",
+                      "layout": [],
+                      "presence": "Present"
+                    },
+                    {
+                      "id": 5,
+                      "tokenKind": {
+                        "kind": "r_brace"
+                      },
+                      "leadingTrivia": "\n",
+                      "trailingTrivia": "",
+                      "presence": "Present"
+                    }
+                  ],
+                  "presence": "Present"
+                }
+              ],
+              "presence": "Present"
+            },
+            null,
+            null
+          ],
+          "presence": "Present"
+        },
+        {
+          "id": 16,
+          "kind": "CodeBlockItem",
+          "layout": [
+            {
+              "id": 15,
+              "kind": "StructDecl",
+              "layout": [
+                null,
+                null,
+                {
+                  "id": 9,
+                  "tokenKind": {
+                    "kind": "kw_struct"
+                  },
+                  "leadingTrivia": "\n\n",
+                  "trailingTrivia": " ",
+                  "presence": "Present"
+                },
+                {
+                  "id": 10,
+                  "tokenKind": {
+                    "kind": "identifier",
+                    "text": "B"
+                  },
+                  "leadingTrivia": "",
+                  "trailingTrivia": " ",
+                  "presence": "Present"
+                },
+                null,
+                null,
+                null,
+                {
+                  "id": 14,
+                  "kind": "MemberDeclBlock",
+                  "layout": [
+                    {
+                      "id": 11,
+                      "tokenKind": {
+                        "kind": "l_brace"
+                      },
+                      "leadingTrivia": "",
+                      "trailingTrivia": "",
+                      "presence": "Present"
+                    },
+                    {
+                      "id": 12,
+                      "kind": "MemberDeclList",
+                      "layout": [],
+                      "presence": "Present"
+                    },
+                    {
+                      "id": 13,
+                      "tokenKind": {
+                        "kind": "r_brace"
+                      },
+                      "leadingTrivia": "\n",
+                      "trailingTrivia": "",
+                      "presence": "Present"
+                    }
+                  ],
+                  "presence": "Present"
+                }
+              ],
+              "presence": "Present"
+            },
+            null,
+            null
+          ],
+          "presence": "Present"
+        }
+      ],
+      "presence": "Present"
+    },
+    {
+      "id": 17,
+      "tokenKind": {
+        "kind": "eof",
+        "text": ""
+      },
+      "leadingTrivia": "\n",
+      "trailingTrivia": "",
+      "presence": "Present"
+    }
+  ],
+  "presence": "Present"
+}
